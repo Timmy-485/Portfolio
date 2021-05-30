@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+nav {
+    width: 100%;
+    background-color: black;
+    line-height: 30px;
+    text-align: right;
+   
+}
+
+nav ul {
+    margin-right: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    transition: 0.5s all;
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+nav ul li {
+    color: white;
+}
+
+nav ul li:hover {
+    border-bottom: white 1px solid;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.8rem;
+  }
+
+
+nav ul li:last-child{
+    margin-right: 100px;
+}
+
+.top {
+    background-color: black;
+    width: 100%;
+    height: 40%;
+    padding-top: 2%;
+    color: white;
+    
+}
+
+.topContainer {
+    width: 60%;
+    height: 90%;
+    /* background-color: blanchedalmond; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.topInner:first-child{
+    padding: 50px;
+
+}
+
+.topInner:last-child{
+    border-radius: 50%;
+    border: rgb(112,80,236) solid 10px;
+    overflow: hidden;
+}
+
+.topInner img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  }
+
+.lowerSector {
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.bottom {
+    height: 55%;
+}
+
+.bottomContainer, .projContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+}
+
+.bottomContainer .inner, .projs {
+    /* background-color: red; */
+    margin-top: 50px;
+}
+
+.bottomContainer .inner:first-child {
+    border-radius: 15px;
+    border: rgb(112,80,236) solid 6px;
+    overflow: hidden;
+}
+
+.bottomContainer .inner:first-child img {
+    width: auto;
+    height: 100%;
+    margin-left: -150px;
+}
+
+.proj {
+    height: 50%;
+}
+
+.projContainer {
+    height: 40%;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.projs {
+    border-radius: 8px;
+    /* background-image: url(../images/black2.jpg);
+    background-size: cover; */
+    background-color: rgb(17,17,17);
+    border: white 3px solid;
+    color: white;
+    padding: 40px;
+}
+
+button a {
+    text-decoration: none;
+    background-color: rgb(112,80,236);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.topInner p{
+    margin: 40px 0;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.projs h2, .projs a {
+    text-align: left;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    /* border: black 2px solid; */
+    border-radius: 5px;
+}
+
